@@ -1,0 +1,33 @@
+{
+  "requests_total": 7,
+  "requests_without_usage": 0,
+  "phases": {
+    "plan": {
+      "requests": 3,
+      "prompt_tokens": 300,
+      "completion_tokens": 120,
+      "total_tokens": 420,
+      "precached_prompt_tokens": 30
+    },
+    "build": {
+      "requests": 3,
+      "prompt_tokens": 300,
+      "completion_tokens": 120,
+      "total_tokens": 420,
+      "precached_prompt_tokens": 30
+    },
+    "review": {
+      "requests": 1,
+      "prompt_tokens": 100,
+      "completion_tokens": 40,
+      "total_tokens": 140,
+      "precached_prompt_tokens": 10
+    }
+  },
+  "totals": {
+    "prompt_tokens": 700,
+    "completion_tokens": 280,
+    "total_tokens": 980,
+    "precached_prompt_tokens": 70
+  }
+}

@@ -67,6 +67,9 @@
       "docs/metric.md"
     ],
     "unique_and_catalog_filter_applied": true,
+    "seen_removed": true,
+    "duplicates_removed": true,
+    "not_in_catalog_removed": true,
     "recall_within_unit_interval": true,
     "known_expected_recall": 0.5,
     "computed_mean_recall": 0.5,

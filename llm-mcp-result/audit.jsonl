@@ -1,0 +1,15 @@
+{"time": "2026-11-17T19:10:18.451297+00:00", "event": "phase_started", "phase": "plan", "actor": "host", "tools": 13}
+{"time": "2026-11-17T19:10:18.459029+00:00", "event": "tools_listed", "phase": "plan", "actor": "host", "server": "own", "count": 4}
+{"time": "2026-11-17T19:10:18.465483+00:00", "event": "tools_listed", "phase": "plan", "actor": "host", "server": "ready", "count": 10}
+{"time": "2026-11-17T19:10:18.532426+00:00", "event": "tool_completed", "phase": "plan", "actor": "model", "server": "own", "name": "get_user_data", "status": "ok", "is_error": false, "operation": "read", "bytes": 752, "args_defaulted": false}
+{"time": "2026-11-17T19:10:18.686453+00:00", "event": "tool_completed", "phase": "plan", "actor": "model", "server": "ready", "name": "read_text_file", "status": "ok", "is_error": false, "operation": "read", "bytes": 104, "args_defaulted": true}
+{"time": "2026-11-17T19:10:18.695052+00:00", "event": "phase_finished", "phase": "plan", "actor": "host", "status": "ok"}
+{"time": "2026-11-17T19:10:18.743003+00:00", "event": "phase_started", "phase": "build", "actor": "host", "tools": 14}
+{"time": "2026-11-17T19:10:18.794786+00:00", "event": "tool_completed", "phase": "build", "actor": "model", "server": "own", "name": "clean_recommendations", "status": "ok", "is_error": false, "operation": "read", "bytes": 2510, "args_defaulted": false}
+{"time": "2026-11-17T19:10:18.918545+00:00", "event": "tool_completed", "phase": "build", "actor": "model", "server": "own", "name": "save_result", "status": "ok", "is_error": false, "operation": "write", "bytes": 74, "args_defaulted": false}
+{"time": "2026-11-17T19:10:19.076445+00:00", "event": "host_verification", "phase": "build", "actor": "host", "status": "ok", "result_exists": true, "report_exists": true, "result_case_id_ok": true, "result_status_ok": true, "result_sources_present": true, "result_data_present": true, "result_checks_present": true, "recall_is_number": true, "recall_in_unit_interval": true, "report_min_length": true}
+{"time": "2026-11-17T19:10:19.083298+00:00", "event": "phase_finished", "phase": "build", "actor": "host", "status": "ok"}
+{"time": "2026-11-17T19:10:19.130750+00:00", "event": "phase_started", "phase": "review", "actor": "host", "tools": 14}
+{"time": "2026-11-17T19:10:19.146490+00:00", "event": "host_verification", "phase": "review", "actor": "host", "status": "ok", "result_exists": true, "report_exists": true, "result_case_id_ok": true, "result_status_ok": true, "result_sources_present": true, "result_data_present": true, "result_checks_present": true, "recall_is_number": true, "recall_in_unit_interval": true, "report_min_length": true, "u1_top_k_is_b_c": true, "u1_recall_is_half": true, "removals_cover_all_cases": true, "report_cites_recall": true}
+{"time": "2026-11-17T19:10:19.161957+00:00", "event": "phase_finished", "phase": "review", "actor": "host", "status": "ok"}
+{"time": "2026-11-17T19:10:19.966179+00:00", "event": "tool_denied", "phase": "plan", "actor": "model", "server": "own", "name": "save_result", "status": "denied", "reason": "write_forbidden_in_plan"}
